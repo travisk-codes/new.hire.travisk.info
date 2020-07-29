@@ -6,3 +6,4 @@
 - finish copy
 - add links
 - ~~resize signature?~~
+- replace resume svg?

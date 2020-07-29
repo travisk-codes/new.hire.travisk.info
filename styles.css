@@ -29,7 +29,7 @@ h1 {
 }
 
 .tilde {
-	max-width: 40px;
+	width: 40px;
 	text-align: center;
 	margin-top: -10px;
 	padding-bottom: 12.5px;
@@ -60,7 +60,6 @@ main img {
 main div p {
 	max-width: 300px;
 	margin: 0;
-	padding-left: 25px;
 }
 
 #flipped {
@@ -68,13 +67,11 @@ main div p {
 }
 
 #flipped p {
-	padding-right: 25px;
-	padding-left: 0px;
 }
 
 h2 {
 	font-family: Helvetica, sans-serif;
-	padding-top: 25px;
+	padding-top: 50px;
 	font-size: 24px;
 	text-align: center;
 	font-weight: 300;
@@ -91,6 +88,12 @@ p {
 ul div {
 	display: flex;
 	align-items: flex-start;
+}
+
+#work ul,
+#history ul {
+	max-width: 600px;
+	margin: 0 auto;
 }
 
 #work ul li,
@@ -133,10 +136,14 @@ li {
 	padding: 12.5px;
 }
 
-#contact img {
+#contact ul img {
 	width: 37.5px;
 	height: 37.5px;
-	filter: drop-shadow(2px 2px);
+	filter: drop-shadow(1px 1px);
+}
+
+#contact .tilde {
+	width: 40px;
 }
 
 #contact a:hover img {
@@ -160,5 +167,14 @@ footer svg {
 	#history p {
 		padding-left: 25px;
 		padding-right: 25px;
+	}
+
+	#flipped p {
+		padding-right: 25px;
+		padding-left: 0px;
+	}
+
+	main div p {
+		padding-left: 25px;
 	}
 }
