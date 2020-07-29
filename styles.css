@@ -2,4 +2,129 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	position: relative;
+}
+
+a {
+	color: black;
+	text-decoration: underline solid #ff5070 2px;
+}
+
+a:hover {
+	color: #ff5070;
+	text-decoration: none;
+}
+
+body {
+	padding: 0 25px;
+	text-align: center;
+}
+
+h1 {
+	font-family: Helvetica, sans-serif;
+	padding-top: 50px;
+	font-size: 36px;
+	text-align: center;
+	font-weight: 300;
+}
+
+.tilde {
+	max-width: 40px;
+	text-align: center;
+	margin-top: -10px;
+	padding-bottom: 12.5px;
+	filter: drop-shadow(2px 2px);
+}
+
+main {
+	text-align: center;
+}
+
+main img {
+	width: 100px;
+	height: 100px;
+	filter: drop-shadow(2px 2px);
+}
+
+h2 {
+	font-family: Helvetica, sans-serif;
+	padding-top: 25px;
+	font-size: 24px;
+	text-align: center;
+	font-weight: 300;
+}
+
+p {
+	padding-top: 12.5px;
+	padding-bottom: 25px;
+	text-align: justify;
+	line-height: 150%;
+	font-size: 14px;
+}
+
+ul div {
+	display: flex;
+	align-items: flex-start;
+}
+
+#work ul li,
+#history ul li {
+	padding-top: 12.5px;
+}
+
+#work ul img,
+#history ul img {
+	padding-right: 10px;
+	padding-bottom: 8px;
+	width: 25px;
+	height: 25px;
+}
+
+#work ul h3,
+#history ul h3 {
+	font-family: Helvetica, sans-serif;
+	font-weight: 300;
+}
+
+#work ul p,
+#history ul p {
+	padding-top: 0px;
+}
+
+li {
+	list-style: none;
+}
+
+#contact ul {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+#contact li {
+	flex: 0 0 auto;
+	text-align: center;
+	padding: 12.5px;
+}
+
+#contact img {
+	width: 37.5px;
+	height: 37.5px;
+	filter: drop-shadow(2px 2px);
+}
+
+#contact a:hover img {
+	filter: none;
+}
+
+footer {
+	text-align: right;
+}
+
+footer svg {
+	padding-top: 150px;
+	padding-bottom: 25px;
+	width: 100%;
+	max-width: 150px;
+	filter: drop-shadow(rgb(255, 82, 111) 5px 5px);
 }
