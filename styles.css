@@ -5,6 +5,11 @@
 	position: relative;
 }
 
+body {
+	padding: 0 25px;
+	text-align: center;
+}
+
 a {
 	color: black;
 	text-decoration: underline solid #ff5070 2px;
@@ -13,11 +18,6 @@ a {
 a:hover {
 	color: #ff5070;
 	text-decoration: none;
-}
-
-body {
-	padding: 0 25px;
-	text-align: center;
 }
 
 h1 {
@@ -40,10 +40,36 @@ main {
 	text-align: center;
 }
 
+main p {
+	max-width: 550px;
+	margin: 0 auto;
+}
+
+main div {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
 main img {
 	width: 100px;
 	height: 100px;
 	filter: drop-shadow(2px 2px);
+}
+
+main div p {
+	max-width: 300px;
+	margin: 0;
+	padding-left: 25px;
+}
+
+#flipped {
+	flex-direction: row-reverse;
+}
+
+#flipped p {
+	padding-right: 25px;
+	padding-left: 0px;
 }
 
 h2 {
@@ -97,7 +123,7 @@ li {
 
 #contact ul {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: center;
 	flex-wrap: wrap;
 }
 
