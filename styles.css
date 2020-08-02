@@ -10,6 +10,12 @@ body {
 	text-align: center;
 }
 
+img,
+svg {
+	pointer-events: none;
+	user-select: none;
+}
+
 a {
 	color: black;
 	text-decoration: underline solid #ff5070 2px;
@@ -144,6 +150,10 @@ li {
 
 #contact .tilde {
 	width: 40px;
+}
+
+#contact a {
+	display: inline-block;
 }
 
 #contact a:hover img {

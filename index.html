@@ -10,13 +10,28 @@
 	</head>
 	<body>
 		<h1>Hi, I'm Travis</h1>
-		<img class="tilde" src="svg/tilde.svg" alt="" />
+		<img draggable="false" class="tilde" src="svg/tilde.svg" alt="" />
 		<main id="about">
 			<p>
 				I am a web developer and designer looking for a front-end or full-stack
-				position with opportunity to learn and grow. I have experience building
-				and consuming web APIs, interfacing with authentication flows, and
-				designing pages using responsive and accesible code. I work with
+				position with opportunity to learn and grow. I have experience
+				<a
+					href="https://github.com/travisk-codes/smartmarks/blob/master/server.js"
+					target="_blank"
+					>building</a
+				>
+				and
+				<a
+					href="https://github.com/travisk-codes/twitch-overlay/blob/master/server.js"
+					target="_blank"
+				>
+					consuming</a
+				>
+				web APIs, interfacing with
+				<a
+					href="https://github.com/travisk-codes/twitch-overlay/blob/master/currentMusicServer.js"
+					>authentication flows</a
+				>, and designing pages using responsive and accesible code. I work with
 				standard web technologies, modern front-end frameworks / libraries,
 				RESTful backends, and databases.
 			</p>
@@ -30,8 +45,10 @@
 			<div id="flipped">
 				<img src="svg/office.svg" alt="" />
 				<p>
-					I have worked on enterprise codebases, open-source projects, freelance
-					gigs, and built internal web-based tools for coworkers.
+					I have worked on enterprise codebases,
+					<a href="https://github.com/hyperspacedev/hyperspace"
+						>open-source projects</a
+					>, freelance gigs, and built internal web-based tools for coworkers.
 				</p>
 			</div>
 			<div>
@@ -52,12 +69,17 @@
 						<h3>Front-end Application</h3>
 					</div>
 					<p>
-						<a href="https://getdatum.app">Datum</a> is a progressive web app
-						(PWA) created with React.js and the Material-UI library. Multiple
+						<a href="https://getdatum.app">Datum</a> is a
+						<a href="https://web.dev/what-are-pwas/">Progressive Web App</a>
+						created with <a href="https://reactjs.org/">React.js</a> and the
+						<a href="https://material-ui.com/">Material-UI library</a>. Multiple
 						key-value-pairs can be grouped and submitted together, then viewed
 						in different modes. It also features data import/export and offline
-						storage. I also design responsive websites. For example, here is the
-						Figma file for this webpage.
+						storage. I also
+						<a
+							href="https://www.figma.com/file/KYp2W6RO1h0Yi5mcKr1uyJ/hire.travisk.info?node-id=0%3A1"
+							>design responsive websites</a
+						>.
 					</p>
 				</li>
 				<li>
@@ -68,10 +90,18 @@
 					<p>
 						<a href="https://travisk.info/smartmarks">Smartmarks</a> is a
 						bookmark app featuring client-side encryption and tagging. A
-						React.js CRUD front-end requests a REST API written with Express
-						Node.js, storing the bookmarks and associated tags in two MySQL
-						tables. The user login and password never leave the client, so they
-						can be used to encode/decode the data sent to the server.
+						React.js
+						<a
+							href="https://github.com/travisk-codes/smartmarks/blob/master/src/App.js"
+							>CRUD front-end</a
+						>
+						requests a
+						<a
+							href="https://github.com/travisk-codes/smartmarks/blob/master/server.js"
+							>REST API written with Express Node.js</a
+						>, storing the bookmarks and associated tags in two MySQL tables.
+						The user login and password never leave the client, so they can be
+						used to encode/decode the data sent to the server.
 					</p>
 				</li>
 				<li>
@@ -84,9 +114,17 @@
 						<a href="https://twitch.tv/travisk_streams"
 							>livestream my programming sessions</a
 						>, and have a stream overlay displaying Twitch and Spotify
-						integrations. Twitch data changes are caught with webhooks, and then
-						piped to the client via websockets. The Spotify data is regularly
-						recieved via a code-grant authorization flow.
+						integrations. A
+						<a
+							href="https://github.com/travisk-codes/twitch-overlay/blob/master/server.js"
+							>server</a
+						>
+						catches Twitch data changes with webhooks, which is sent to the
+						client via websockets. The Spotify data is regularly recieved via a
+						<a
+							href="https://github.com/travisk-codes/twitch-overlay/blob/master/currentMusicServer.js"
+							>code-grant authorization flow</a
+						>.
 					</p>
 				</li>
 				<li>
@@ -95,10 +133,12 @@
 						<h3>Open Source Contributions</h3>
 					</div>
 					<p>
-						I am a member of the Hyperspace development team: a client for the
-						Mastodon decentralized social network. Contributions include
-						infinite-scroll, a masonry card layout for posts, and fixing
-						like/repost logic bugs.
+						I am a member of the
+						<a href="https://github.com/hyperspacedev/hyperspace">Hyperspace</a>
+						development team: a client for the
+						<a href="https://joinmastodon.org/">Mastodon</a> decentralized
+						social network. Contributions include infinite-scroll, a masonry
+						card layout for posts, and fixing like/repost logic bugs.
 					</p>
 				</li>
 				<li>
@@ -108,18 +148,23 @@
 					</div>
 					<p>
 						Headless Chrome takes screenshots of a video every second, which are
-						then posted by a Twitter Bot. A Python script converts multiple XML
-						files into a single spreadsheet. A Webserver sends and receives text
-						messages to update a MySQL database
+						then posted by a
+						<a href="https://twitter.com/3b1bScreensBot">Twitter bot</a>.
+						<a href="https://github.com/travisk-codes/bag-it-fits-it"
+							>A Python script</a
+						>
+						converts multiple XML files into a single spreadsheet. A Webserver
+						<a href="https://github.com/travisk-codes/datum-bot"
+							>sends and receives text messages</a
+						>
+						to update a MySQL database
 					</p>
 				</li>
 			</ul>
 		</section>
 		<section id="history">
 			<h2>
-				<a href="https://travisk.info/resume">
-					Where I've Been
-				</a>
+				Where I've Been
 			</h2>
 			<img class="tilde" src="svg/tilde.svg" alt="" />
 			<ul>

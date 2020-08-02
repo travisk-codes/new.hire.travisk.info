@@ -3,7 +3,7 @@
 - ~~Color accenting~~
 - ~~Style links~~
 - ~~indents?~~
-- finish copy
+- ~~finish copy~~
 - add links
 - ~~resize signature?~~
 - replace resume svg?
