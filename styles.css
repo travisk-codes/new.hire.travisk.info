@@ -184,10 +184,11 @@ footer svg {
 
 	#flipped p {
 		padding-right: 25px;
-		padding-left: 0px;
+		padding-left: 25px;
 	}
 
 	main div p {
 		padding-left: 25px;
+		padding-right: 25px;
 	}
 }
