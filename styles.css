@@ -31,7 +31,7 @@ a:hover {
 h1 {
 	font-family: Helvetica, sans-serif;
 	padding-top: 50px;
-	font-size: 36px;
+	font-size: 42px;
 	text-align: center;
 	font-weight: 300;
 }
@@ -49,7 +49,7 @@ main {
 }
 
 main p {
-	max-width: 550px;
+	max-width: 800px;
 	margin: 0 auto;
 }
 
@@ -63,10 +63,11 @@ main img {
 	width: 100px;
 	height: 100px;
 	filter: drop-shadow(2px 2px);
+	margin-top: 12.5px;
 }
 
 main div p {
-	max-width: 300px;
+	max-width: 400px;
 	margin: 0;
 }
 
@@ -74,13 +75,10 @@ main div p {
 	flex-direction: row-reverse;
 }
 
-#flipped p {
-}
-
 h2 {
 	font-family: Helvetica, sans-serif;
 	padding-top: 50px;
-	font-size: 24px;
+	font-size: 30px;
 	text-align: center;
 	font-weight: 300;
 }
@@ -90,7 +88,7 @@ p {
 	padding-bottom: 25px;
 	text-align: justify;
 	line-height: 150%;
-	font-size: 14px;
+	font-size: 20px;
 }
 
 ul div {
@@ -100,7 +98,7 @@ ul div {
 
 #work ul,
 #history ul {
-	max-width: 600px;
+	max-width: 800px;
 	margin: 0 auto;
 }
 
