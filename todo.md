@@ -4,6 +4,6 @@
 - ~~Style links~~
 - ~~indents?~~
 - ~~finish copy~~
-- add links
+- ~~add links~~
 - ~~resize signature?~~
 - replace resume svg?

@@ -6,9 +6,23 @@
 	text-size-adjust: none;
 }
 
+@keyframes fadeIn {
+	from {
+		transform: translateY(-50px);
+		opacity: 0%;
+	}
+
+	to {
+		transform: translateY(0px);
+		opacity: 100%;
+	}
+}
+
 body {
 	padding: 0 25px;
 	text-align: center;
+	animation-duration: 1.25s;
+	animation-name: fadeIn;
 }
 
 img,
