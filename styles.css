@@ -78,7 +78,7 @@ main div {
 main img {
 	width: 100px;
 	height: 100px;
-	filter: drop-shadow(2px 2px);
+	filter: drop-shadow(5px 5px);
 	margin-top: 12.5px;
 }
 
@@ -130,6 +130,7 @@ ul div {
 	padding-bottom: 8px;
 	width: 25px;
 	height: 25px;
+	filter: drop-shadow(1px 1px);
 }
 
 #work ul h3,
