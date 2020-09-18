@@ -8,7 +8,7 @@
 
 @keyframes fadeIn {
 	from {
-		transform: translateY(-50px);
+		transform: translateY(-100px);
 		opacity: 0%;
 	}
 
@@ -21,8 +21,11 @@
 body {
 	padding: 0 25px;
 	text-align: center;
-	animation-duration: 1.25s;
+}
+
+.title {
 	animation-name: fadeIn;
+	animation-duration: 1s;
 }
 
 img,
@@ -69,10 +72,17 @@ main p {
 	margin: 0 auto;
 }
 
+main > p {
+	animation-name: fadeIn;
+	animation-duration: 1.25s;
+}
+
 main div {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	animation-name: fadeIn;
+	animation-duration: 1.5s;
 }
 
 main img {
