@@ -101,6 +101,11 @@ main div p {
 	flex-direction: row-reverse;
 }
 
+section {
+	animation-name: fadeIn;
+	animation-duration: 1.75s;
+}
+
 h2 {
 	font-family: Helvetica, sans-serif;
 	padding-top: 50px;
